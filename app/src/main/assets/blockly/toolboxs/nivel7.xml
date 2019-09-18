@@ -1,0 +1,15 @@
+<xml id="toolbox" style="display: none;">
+    <category name="Comandos" colour="#843c0f">
+        <block type="caminarderecha"></block>
+        <block type="disparar"></block>
+		<block type="saltar"></block>
+    </category>
+    <category name="Ciclos" colour="#a50993">
+        <block type="controls_whileUntil">
+            <field name="MODE">WHILE</field>
+        </block>
+    </category>
+    <category name="Logico" colour="#0e6aa3">
+        <block type="enemigo_defrente"></block>
+    </category>
+</xml>

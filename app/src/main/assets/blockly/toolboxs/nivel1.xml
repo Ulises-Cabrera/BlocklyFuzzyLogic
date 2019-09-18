@@ -1,0 +1,17 @@
+<xml id="toolbox" style="display:none;">
+
+    <category name="Comandos" colour="#843c0f">
+        <block type="caminarderecha"></block>
+        <block type="caminarizquierda"></block>
+        <block type="saltar"></block>
+    </category>
+
+    <category name="Numeros" colour="#013d9e">
+        <block type="math_number">
+            <field name="NUM">1</field>
+        </block>
+    </category>
+
+
+
+</xml>

@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "descripcion":"Favor de colocar un bloque para sumar dos numeros. Los numeros son 5 y 10.",
+    "tipo": "Basico",
+    "dificultad": 1,
+    "comprobacionSalida": "15",
+    "comprobacionCodigo": "5 + 10;\n",
+    "ayuda": [
+      "Imprimir en  pantalla se  hace uso del objeto System\nque representa la salida estándar. Típicamente este\nobjeto se  corresponde con  la pantalla u otra salida\nespecificada en las variables de entorno del sistema\nen el que se ejecuta.",
+      "Un ejemplo de impresion de pantalla con el uso del\nobjeto System.out seria, System.out.println."
+    ]
+  },
+  {
+    "Id": 2,
+    "descripcion": "Favor de colocar un bloque para restar dos numeros. Los numeros son 8 y 3.",
+    "tipo": "Basico",
+    "dificultad": 1,
+    "comprobacionSalida": "5",
+    "comprobacionCodigo": "8 - 3;\n",
+    "ayuda": [
+      "Los  tipos de  variables  son  locales  cuando la misma\nsólo es accesible en el propio bloque,globales cuando\nla misma es accesible en todos los procedimientos.\n\nVariable Local: int nombre_variable = 0;\nVariable Global: public int nombre_variable;",
+      "Se dispone del operadores lógicos (>, = ,<), la sintaxis\nse basa en  símbolos, un  ejemplo seria la sentencia if.\n\nEjemplos: \nif(numero > numero2)\nif(numero >= numero2)"
+    ]
+  },
+  {
+    "Id": 3,
+    "descripcion": "Favor de colocar un bloque para multiplicar dos numeros. Los numeros son 5 y 5.",
+    "tipo": "Basico",
+    "dificultad": 1,
+    "comprobacionSalida": "25",
+    "comprobacionCodigo": "",
+    "ayuda": [ "Los operadores lógicos y matemáticos tienen un orden de prioridad:\n\n1) Parentesis\n2) Exponencial\n3) Multiplicacion y Division\n4) Suma y Resta\n5) Mayor, Menor, Igual\n6) Not, And, Or",
+      "Para la utilizacion de operadores suma y resta se\npueden usar de varias maneras: \n\nvariable_suma = variable_suma + numero;\nvariable suma += numero;"
+    ]
+  },
+  {
+    "Id": 4,
+    "descripcion": "Favor de colocar un bloque para dividir dos numeros. Los numeros son 30 y 5.",
+    "tipo": "Basico",
+    "dificultad": 1,
+    "comprobacionSalida": "6",
+    "comprobacionCodigo": "",
+    "ayuda": [ "Java es un lenguaje tipado y nos obliga a declarar\nnuestras variables antes de poder hacer uso de ellas\ncon esta declaración le indicamos al compilador el\nespacio en memoria que debe de reservar para almacenar\nla información. Por ejemplo: String nombre_variable;",
+      "Definimos el tipo de dato, el nombre y opcionalmente su valor inicial.\nPara ver como se utilizan las variables, un ejemplo seria el siguiente:\nSystem.out.println(nombre_variable)"
+
+    ]
+  },
+  {
+    "Id": 5,
+    "descripcion": "Escribe un programa en Java que realice lo siguiente: \nDeclarar variables num1= 8, num2= 4. mostrar: El valor de la multiplicacion.",
+    "tipo": "Intermedio",
+    "dificultad": 2,
+    "comprobacionSalida": "32",
+    "comprobacionCodigo": "",
+    "ayuda": ["Se dispone  del  operadores  lógicos (*, / , +, -)\nPara la utilizacion de operadores multiplicacion y\ndivision se pueden usar de varias maneras: \n\nvar_multiplacion = var_multiplicacion * numero;\nvar_multiplicacion *= numero;",
+      "Para realizar el ejercicio  tiene que tomar encuenta\nEl  tipo  de  dato  tipo int  para las variables  de\nmultiplicacion y division, si se requiere que sea de\ntipo decimal, es tipo float."
+    ]
+  },
+  {
+    "Id": 6,
+    "descripcion": "Escribe un programa en Java que realice lo siguiente: \nUtilizar varialbes que contengan su nombre: Juan y su edad = 20. mostrar: Si es mayor de edad",
+    "tipo": "Intermedio",
+    "dificultad": 2,
+    "comprobacionSalida": "ES MAYOR DE EDAD",
+    "comprobacionCodigo": "",
+    "ayuda": [ "Para realizar el ejercicio tiene que tomar encuenta\nEl  tipo  de  dato  tipo int para la  edad \nEl tipo de dato tipo String para el nombre",
+      "Para realizar el ejercicio tiene que tomar encuenta\nSe valida  con un operador, > para comparar \nel dato entero con un valor 18."
+
+    ]
+  },
+  {
+    "Id": 7,
+    "descripcion": "Ejercicio 1: Escribe un programa en Java que realice lo siguiente: \nColocar una cantidad de numeros (5,3,8,6,7) . mostrar: La media de los numeros.",
+    "tipo": "Intermedio",
+    "dificultad": 3,
+    "comprobacionSalida": "5.8",
+    "comprobacionCodigo": "",
+    "ayuda": [
+      "Java posee la capacidad de definir un conjunto de\nvariables del mismo tipo agrupadas todas ellas bajo\nun mismo nombre, y distinguiéndolas mediante un índice\nnumérico.",
+      "Para definir un array en java es como definir una variable\no atributo, pero al especificar el tipo lo que hacemos es\ncolocar un par de corchetes [] para indicar que lo que\nestamos definiendo es un array.\n\nPor ejemplo:\n\npublic int [] losValores;"
+    ]
+  },
+  {
+    "Id": 8,
+    "descripcion": "Ejercicio 2: Escribe un programa en Java que realice lo siguiente: \nCalcular los numeros pares del 1-30. imprimir los numeros pares.",
+    "tipo": "Intermedio",
+    "dificultad": 3,
+    "comprobacionSalida": "2,4,6,8,10,12,14,16,18,20,22,24,26,28,30",
+    "comprobacionCodigo": "",
+    "ayuda": [ "Un número par es un número entero que es divisible entre dos.\nSe trata de un número entero que se puede escribir de la forma:\n2k (es decir, divisible de manera entera entre 2), donde k es un\nentero (los números pares son los múltiplos del número 2).\nLos números enteros que no son pares se llaman números impares\n(o números menores), y pueden escribirse como 2k+1.",
+      ""
+    ]
+  },
+  {
+    "Id": 9,
+    "descripcion": "Ejercicio 3: Escribe un programa en java que realice lo siguiente: \nCalcular la circunferencia =4, mostrar: la circunferencia de el circulo.",
+    "tipo": "Experto",
+    "dificultad": 3,
+    "comprobacionSalida": "12.56",
+    "comprobacionCodigo": "",
+    "ayuda": [ "La circunferencia de un círculo es la distancia alrededor del círculo.\nSe podría llamar perímetro del círculo. Como encontrar la\ncircunferencia de un círculo:\nLa circunferencia de un círculo se puede averiguar:\nmultiplicando pi ( p= 3.14) por el díametro del círculo.",
+      "Si un círculo tiene un diámetro de 4, su circuferencia es\nC = 3.14*4 = 12.56"
+    ]
+  },
+
+  {
+    "Id": 10,
+    "descripcion": "Ejercicio 3: Escribe un programa en java que realice lo siguiente: \nCalcular la circunferencia =4, mostrar: la circunferencia de el circulo.",
+    "tipo": "Experto",
+    "dificultad": 3,
+    "comprobacionSalida": "12.56",
+    "comprobacionCodigo": "",
+    "ayuda": [ "La circunferencia de un círculo es la distancia alrededor del círculo.\nSe podría llamar perímetro del círculo. Como encontrar la\ncircunferencia de un círculo:\nLa circunferencia de un círculo se puede averiguar:\nmultiplicando pi ( p= 3.14) por el díametro del círculo.",
+      "Si un círculo tiene un diámetro de 4, su circuferencia es\nC = 3.14*4 = 12.56"
+    ]
+  },
+
+  {
+    "Id": 11,
+    "descripcion": "Ejercicio 3: Escribe un programa en java que realice lo siguiente: \nCalcular la circunferencia =4, mostrar: la circunferencia de el circulo.",
+    "tipo": "Experto",
+    "dificultad": 3,
+    "comprobacionSalida": "12.56",
+    "comprobacionCodigo": "",
+    "ayuda": [ "La circunferencia de un círculo es la distancia alrededor del círculo.\nSe podría llamar perímetro del círculo. Como encontrar la\ncircunferencia de un círculo:\nLa circunferencia de un círculo se puede averiguar:\nmultiplicando pi ( p= 3.14) por el díametro del círculo.",
+      "Si un círculo tiene un diámetro de 4, su circuferencia es\nC = 3.14*4 = 12.56"
+    ]
+  },
+
+  {
+    "Id": 12,
+    "descripcion": "Ejercicio 3: Escribe un programa en java que realice lo siguiente: \nCalcular la circunferencia =4, mostrar: la circunferencia de el circulo.",
+    "tipo": "Experto",
+    "dificultad": 3,
+    "comprobacionSalida": "12.56",
+    "comprobacionCodigo": "",
+    "ayuda": [ "La circunferencia de un círculo es la distancia alrededor del círculo.\nSe podría llamar perímetro del círculo. Como encontrar la\ncircunferencia de un círculo:\nLa circunferencia de un círculo se puede averiguar:\nmultiplicando pi ( p= 3.14) por el díametro del círculo.",
+      "Si un círculo tiene un diámetro de 4, su circuferencia es\nC = 3.14*4 = 12.56"
+    ]
+  }
+]

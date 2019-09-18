@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tutor_Inteligente</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exercise">Ejercicio 0:</string>
+    <string name="description">Favor de presionar al boton de play para continuar.</string>
+
+    <string name="time">Tiempo: </string>
+    <string name="errors">Errores: </string>
+    <string name="help">Ayudas: </string>
+    <string name="error">Error: </string>
+
+
+    <string name="btn_cerrar">Cerrar</string>
+    <string name="btn_export">Exportar</string>
+    <string name="imageGraph">Grafica</string>
+    <string name="titleGraph">Grafica</string>
+</resources>
